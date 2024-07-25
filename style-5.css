@@ -1,0 +1,30 @@
+ .kos-header {
+     margin-bottom: 20px;
+ }
+
+ .kos-description {
+     margin-top: 20px;
+ }
+
+ .kos-price {
+     font-size: 24px;
+     font-weight: bold;
+     color: #007bff;
+ }
+
+ .btn-custom {
+     background-color: #007bff;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 5px;
+ }
+
+ .btn-custom:hover {
+     background-color: #0056b3;
+ }
+
+ .facilities-list {
+     list-style-type: disc;
+     padding-left: 20px;
+ }

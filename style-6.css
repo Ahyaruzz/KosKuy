@@ -1,0 +1,35 @@
+.payment-section {
+    margin-top: 20px;
+}
+
+.total-payment {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.info-text {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.btn-secondary {
+    color: blue;                                        
+}
+
+.btn-btn-custom {
+    background-color: #0056b3;
+}
+

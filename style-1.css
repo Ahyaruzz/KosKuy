@@ -1,0 +1,45 @@
+body {
+    background-color: #e5edee;
+    font-family: Arial, sans-serif;
+}
+.container-fluid{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.container {
+    height: 100vh;
+}
+.card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+}
+.form-label {
+    font-weight: bold;
+}
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.preview {
+    margin-top: 10px;
+    max-width: 300px;
+    max-height: 300px;
+}
+.d-flex{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}

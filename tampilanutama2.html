@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KosKuy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <div class="logo">
+            <img class="logokos" src="asset/kosuy.png" alt="">
+        </div>
+        </a>
+        <button class="navbar-toggler pe-0" type="button"
+         data-bs-toggle="offcanvas" 
+         data-bs-target="#offcanvasNavbar"
+         aria-controls="offcanvasNavbar"
+         aria-label="Toggle navigation"
+         >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help Center</a>
+            </li>
+          </ul>
+          <form class="d-flex" >
+            <i class="bibi2 bi-person-circle text-white fs-1"></i>
+            
+            <!-- Modal -->
+  <div class="modal fade" id="popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-black" id="exampleModalLabel">Login Sebagai</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <a class="daftar" href="pencarikos.html">
+            <div class="pemilik d-flex align-items-center">
+              <img src="asset/pencarikos.png" alt="">
+              <h3 class="text-black">Pencari</h3>
+            </div>
+          </a>
+          <hr class="garis" >
+          <a class="daftar" href="daftarpemilikkos.html">
+            <div class="pemilik d-flex align-items-center">
+              <img src="asset/pemilikkos.png" alt="">
+              <h3 class="text-black">Pemilik</h3>
+            </div>
+          </a>
+      </nav>
+  </div> 
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+ 
+  <!-- <div class="header">
+    <div class="logo">
+        <img src="asset/kosuy.png" alt="">
+    </div>
+    <nav>
+        <a href="tampilan utama.html">Home</a>
+        <a href="#tentangkami">About Us</a>
+        <a href="#pusatbantuan">Help Center</a> -->
+        <!-- Button trigger modal -->
+<!-- <button type="button" class="btn-masuk btn-primary" data-bs-toggle="modal" data-bs-target="#popup">
+  Masuk
+</button> -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-black" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <a href="pencarikos.html">
+          <div class="pemilik d-flex align-items-center">
+            <img src="asset/pencarikos.png" alt="">
+            <h3 class="text-black">Pencari</h3>
+          </div>
+        </a>
+        <hr class="garis" >
+        <a href="daftarpemilikkos.html">
+          <div class="pemilik d-flex align-items-center">
+            <img src="asset/pemilikkos.png" alt="">
+            <h3 class="text-black">Pemilik</h3>
+          </div>
+        </a>
+    </nav>
+</div>  -->
+
+
+    <div class="container-fluid">       
+      <img class="gambar-atas" src="asset/rumahku.png" alt="gambaratas" align="right">
+  </div>
+  <div class="search-posisi">
+    <H1 class="text">Mau Cari Kos ?</H1>
+  <h4>Dapatkan infonya dan langsung sewa di koskuy.</h4>
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="Search...">
+    <!-- <div class="dropdown-search">
+        <button class="dropbtn">Kabupaten <i class="bibi bi-caret-down-fill"></i></button>
+        <div class="dropdown-content">
+            <a href="#">Option 1</a>
+            <a href="#">Option 2</a>
+            <a href="#">Option 3</a>
+        </div>
+    </div> -->
+    <button type="button">Cari</button>
+</div>
+  
+    
+    
+      <div class="container">
+        <div class="container-fluid">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="bener1" src="asset/baner1.jpeg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img class="bener2" src="asset/baner2.jpeg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img class="bener3" src="asset/bener3.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+    
+            </div>
+          </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+        <!--carousel end-->
+        <h2 class="promo">Promo</h2>
+        <div class="container-fluid">
+          <section class="splide" aria-label="Splide Basic HTML Example">
+              <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                        <a class="card-link" href="detailkos.html">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                      <li class="splide__slide">
+                        <a class="card-link" href="#">
+                          <div class="card" style="width: 16rem;">
+                              <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <button type="button">Campur</button>
+                                  <i class="bi bi-star-fill"></i>4.8
+                                <h5 class="card-title">Kost Apik Tipe A 
+                                  Maguwoharjo Yogyakarta</h5>
+                                <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                              </div>
+                            </div>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+              
+          </section>
+        </div>
+        <div class="container-dropdon gap-4">
+          <div class="rekomendasi-kabupaten gap">
+            <h3>Rekomendasi Kos di Jogja </h3>
+          </div>
+          <div class="dropdown">
+            <h3 data-bs-toggle="dropdown" aria-expanded="false">Kabupaten<i class="bibi bi-caret-down-fill"></i></h3>
+            <!-- <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <h3>Kabupaten</h3> 
+            </button> -->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sleman</a></li>
+              <li><a class="dropdown-item" href="#">Bantul</a></li>
+              <li><a class="dropdown-item" href="#">Kulon Progo</a></li>
+              <li><a class="dropdown-item" href="#">Kota Yogyakarta</a></li>
+              <li><a class="dropdown-item" href="#">Gunung Kidul</a></li>
+            </ul>
+          </div>
+        </div>
+          <div class="container-fluid">
+            <section class="splide" id="splide" aria-label="rekomendasi">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="splide__slide">
+                          <a class="card-link" href="#">
+                            <div class="card" style="width: 16rem;">
+                                <img src="asset/kamar1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <button type="button">Campur</button>
+                                    <i class="bi bi-star-fill"></i>4.8
+                                  <h5 class="card-title">Kost Apik Tipe A 
+                                    Maguwoharjo Yogyakarta</h5>
+                                  <p class="card-text">K Mandi dalam, WIFI, AC, TV</p>
+                                </div>
+                              </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div> 
+        <div class="container text-center my-5" id="tentangkami">
+          <h3>About Us</h3>
+          <p class="tentangkami" align="center">
+            Website Koskuy dibuat sebagai respons terhadap kebutuhan meningkatnya 
+            pencari kos di Yogyakarta. <br> Yogyakarta, sebagai salah satu kota pendidikan 
+            terbesar di Indonesia, menarik ribuan mahasiswa setiap tahunnya. <br>Banyak dari
+            mereka datang dari luar kota dan membutuhkan tempat tinggal yang nyaman dan
+            terjangkau. <br> Namun, mencari kos yang sesuai dengan kebutuhan bisa menjadi
+            tantangan tersendiri karena kurangnya informasi <br>yang terorganisir dan
+            terpercaya. Untuk itu, Koskuy hadir sebagai solusi untuk mempermudah <br> proses
+             pencarian kos dengan menyediakan platform yang informatif dan user-friendly.</p>
+      </div>
+        
+        <div class="sktr-kampus">
+          <h3>Kos sekitar kampus</h3>
+          <div class="image-box">
+           <img class="image" src="asset/Rectangle 125.png" alt="">
+           <img class="image" src="asset/Rectangle 124.png" alt="">
+           <img class="image" src="asset/Rectangle 126.png" alt="">
+           <img class="image" src="asset/Rectangle 127.png" alt="">
+           <img class="image" src="asset/Rectangle 128.png" alt="">
+           <img class="image" src="asset/Rectangle 129.png" alt="">
+           <img class="image" src="asset/Rectangle 130.png" alt="">
+           <img class="image" src="asset/Rectangle 131.png" alt="">
+          </div>
+        </div>
+    </div>
+
+
+    <!-- modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Form Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Alamat Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">Kami tidak akan membagikan email anda kepada siapapun</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Buat saya tetap masuk</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    
+
+    
+                
+                    <footer class="footer" id="pusatbantuan">
+                        <div class="container">
+                            <div class="row">
+                                <!-- <div class="col-4 text-center">
+                                    <img src="asset/image 2.png" alt="Koskuy Logo" class="mb-2" style="max-width: 50px;">
+                                    <p>Dapatkan info kos hanya di koskuy</p>
+                                </div> -->
+                                <div class="col-md-3  text-left">
+                                    <div class="kos-footer">
+                                      <img class="kos" src="asset/kosuy.png" alt="">
+                                    </div>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><p>Tentang Kami</p></a></li>
+                                        <li><a href="#"><p>Pusat Bantuan</p></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 text-left">
+                                    <h2 class="kos">Kebijakan</h2>
+                                    <ul class="list-unstyled">
+                                      <li><a href="#"><p>Syarat dan Ketentuan Umum</p></a></li> 
+                                      <li><a href="#"><p>Kebijakan Privasi</p></a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 text-left">
+                                    <h3 class="kos">Kontak</h3>
+                                    <ul class="list-unstyled">
+                                       <p><li><i class="bi-foter bi-envelope"></i><a href="mailto:koskuy.com">koskuy.com</a></li></p> 
+                                        <p><li><i class="bi-foter bi-whatsapp"></i><a href="https://wa.me/6288198776045">+6288198776045</a></li></p>
+                                        <p><li><i class="bi-foter bi-facebook"></i><a href="https://wa.me/6288198776045">KosKuy</a></li></p>
+                                        <p><li><i class="bi-foter bi-instagram"></i><a href="https://wa.me/6288198776045">KosKuy</a></li></p>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 text-left">
+                                  <h3 class="kos">Alamat</h3>
+                                  <ul class="list-unstyled">
+                                    <p>Jl. Contoh Alamat No. 123, Kelurahan, Kecamatan, Kota, Provinsi, Kode Pos</p>
+                                  </p>
+                                  </ul>
+                              </div>
+                            </div>
+                        </div>
+                        <hr class="garis" >
+                        <p class="copyright" align="center">
+                          
+                          &copy;dibuat oleh team projrk Koskuy
+                        </p>
+                    </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybU5F2X6fF6QNHVsOF5pFT7mSuDf0quLFz9hCWBIpZsGak5+a" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-ZOeI9X9MrlxieYmB6UTkv6AAGd6NOFJ78O/07zp5xpxJPDzGZsmZj8M3WFEA4l1A" crossorigin="anonymous"></script>
+    <script>     
+      var splide= new Splide('.splide', {
+      perPage:4,
+      rewind: true,});
+  
+      splide.mount();
+      </script>
+       <script>     
+        var splide= new Splide('#splide', {
+        perPage:4,
+        rewind: true,});
+    
+        splide.mount();
+        </script>
+</body>
+</html>
